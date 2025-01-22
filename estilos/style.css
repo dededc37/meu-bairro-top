@@ -1,1 +1,38 @@
 @charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px;
+}
+
+img#logo {
+    display: inline-block;
+    width: 134px;
+}
+
+i#burguer {
+    background-color: #E20000;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+ul {
+    display: block;
+}
+
+ul > li {
+    background-color: gray;
+    display: block;
+    list-style: none;
+    text-align: left;
+    width: 300px;
+}
